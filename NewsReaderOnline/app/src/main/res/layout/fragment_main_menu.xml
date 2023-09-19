@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainMenuFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:id="@+id/linearLayout1">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/oilminer"
+                    android:scaleType="fitXY"
+                    android:id="@+id/imageNews1"
+                    android:clickable="true"
+                    android:focusable="true"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Global inflation fears as price rises towards $100 a barrel"
+                    android:textSize="20dp"
+                    android:layout_gravity="top|left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:id="@+id/textView1"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:id="@+id/linearLayout2">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/kimjongun"
+                    android:scaleType="fitXY"
+                    android:id="@+id/imageNewss2"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                    android:layout_gravity="top|left"
+                    android:text="Kim Jong-un inspects strategic bombers in Russia"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/textViews2"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"/>
+        </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
