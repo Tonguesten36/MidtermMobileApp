@@ -4,49 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".NewsReadingActivity">
+    android:background="@color/white"
 
-        <ScrollView
+    tools:context=".NewsReadingActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scrollbars="none">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="10dp"
-                            android:text="@string/article_1_title"
-                            android:textColor="@color/black"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/article_2_author_and_date"
-                            android:textColor="@color/black"
-                            android:textSize="20sp" />
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="250dp"
-                            android:paddingBottom="10dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/oilminer" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingHorizontal="30dp"
-                            android:text="@string/article_1_content"
-                            android:textSize="18sp" />
-                </LinearLayout>
-        </ScrollView>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingHorizontal="30dp"
+                android:text="@string/article_1_title"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="@string/article_1_author_and_date"
+                android:textSize="11sp"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:paddingBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/oilminer"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="30dp"
+                android:text="@string/article_1_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
 
