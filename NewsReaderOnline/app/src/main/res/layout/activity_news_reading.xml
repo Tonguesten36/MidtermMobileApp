@@ -14,24 +14,24 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:paddingBottom="10dp"
-                            android:text="Global inflation fears as price rise toward 100$ a barrel"
+                            android:text="@string/article_1_title"
                             android:textColor="@color/black"
-                            android:textSize="35dp"
+                            android:textSize="35sp"
                             android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="NewsReaderOnline-  19/9/2023"
+                            android:text="@string/article_2_author_and_date"
                             android:textColor="@color/black"
-                            android:textSize="20dp" />
+                            android:textSize="20sp" />
 
                         <ImageView
                             android:layout_width="match_parent"
@@ -44,8 +44,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:paddingHorizontal="30dp"
-                            android:text="As you know … in July, several member states expressed their incomprehension regarding the commission’s unilateral action on the conclusion of this [memorandum of understanding] and concerns about some of its contents,” Borrell wrote in a letter to Olivér Várhelyi, the European commissioner for neighbouring countries"
-                            android:textSize="18dp" />
+                            android:text="@string/article_1_content"
+                            android:textSize="18sp" />
                 </LinearLayout>
         </ScrollView>
 </LinearLayout>
+
