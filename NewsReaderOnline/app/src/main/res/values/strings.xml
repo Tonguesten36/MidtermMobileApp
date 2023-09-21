@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">NewsReaderOnline</string>
 
-    <string name="article_1_title"></string>
-    <string name="article_1_author_and_date"></string>
+    <string name="article_1_title">Global inflation fears as price rise toward 100$ a barrel</string>
+    <string name="article_1_author_and_date">NewsReaderOnline-  19/9/2023</string>
 
     <string name="article_2_title">Kim Jong-un inspects strategic bombers in Russia</string>
     <string name="article_2_author_and_date">NewsReaderOnline-  20/9/2023</string>
