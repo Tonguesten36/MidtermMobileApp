@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+
     tools:context=".NewsReading2Activity"
     android:orientation="vertical">
     <ScrollView
@@ -12,21 +14,23 @@
         android:scrollbars="none">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kim Jong-un inspects strategic bombers in Russia"
-                android:textSize="35dp"
+                android:paddingBottom="10dp"
+                android:paddingHorizontal="30dp"
+                android:text="@string/article_2_title"
+                android:textSize="30sp"
                 android:textStyle="bold"
-                android:textColor="@color/black"
-                android:paddingBottom="10dp"/>
+                android:textColor="@color/black"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="NewsReaderOnline-  20/9/2023"
+                android:paddingLeft="30dp"
+                android:textSize="11sp"
+                android:text="@string/article_2_author_and_date"
                 android:textColor="@color/black"/>
             <ImageView
                 android:layout_width="match_parent"
@@ -37,11 +41,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:text="North Korea’s leader, Kim Jong-un, inspected nuclear-capable strategic bombers in Russia on Saturday, according to Russian state media, as he continued a trip that has raised fears of the two nations deepening their military ties against a common enemy, the United States.
-Mr. Kim arrived in Primorsky Krai, in Russia’s Far East, on Saturday morning traveling via his armored train. There, Sergei K. Shoigu, the defense minister, and other top Russian military officers showed him Russia’s hypersonic Kinzhal missile mounted on a MIG-31 jet, as well as three other key elements of Russia’s nuclear force: the Tu-95MS turboprop strategic bomber and Tu-160 and Tu-22M3 supersonic bombers, according to RIA Novosti, a Russian news outlet.
-When Mr. Shoigu visited Pyongyang in July, Mr. Kim took him to an exhibition of missiles and other weapons, raising fears that Russia was turning to North Korea for ammunition badly needed in its war against Ukraine. United States officials have repeatedly warned that North Korea was already shipping artillery shells and army rockets to Russia and that in return it wanted Russian technology to advance its own military capabilities.
-The prospect of such military exchanges presents a double challenge for Washington: Conventional weapons from North Korea could help Moscow prolong its invasion of Ukraine, while technical help from Russia would expand the North’s nuclear threat against the United States and its allies in the region, South Korea and Japan."/>
+                android:paddingHorizontal="30dp"
+                android:textSize="18sp"
+                android:text="@string/article_2_content"
+                android:textColor="@color/black"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

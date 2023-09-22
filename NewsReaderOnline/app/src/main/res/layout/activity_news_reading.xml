@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+
     tools:context=".NewsReadingActivity"
     android:orientation="vertical">
         <ScrollView
@@ -12,33 +14,38 @@
             android:scrollbars="none">
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Global inflation fears as price rise toward 100$ a barrel"
-            android:textSize="35dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:paddingBottom="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="NewsReaderOnline-  19/9/2023"
-            android:textColor="@color/black"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:src="@drawable/oilminer"
-            android:scaleType="fitXY"
-            android:paddingBottom="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18dp"
-            android:text="As you know … in July, several member states expressed their incomprehension regarding the commission’s unilateral action on the conclusion of this [memorandum of understanding] and concerns about some of its contents,” Borrell wrote in a letter to Olivér Várhelyi, the European commissioner for neighbouring countries"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingHorizontal="30dp"
+                            android:text="@string/article_1_title"
+                            android:textSize="30sp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="30dp"
+                            android:text="@string/article_1_author_and_date"
+                            android:textSize="11sp"
+                            android:textColor="@color/black"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:paddingBottom="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/oilminer"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingHorizontal="30dp"
+                            android:text="@string/article_1_content"
+                            android:textSize="18sp"
+                            android:textColor="@color/black"/>
                 </LinearLayout>
         </ScrollView>
 </LinearLayout>
+
