@@ -8,8 +8,13 @@
 
     tools:context=".NewsReadingActivity"
     android:orientation="vertical">
-        <ScrollView
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
             android:layout_width="match_parent"
+
             android:layout_height="match_parent"
             android:scrollbars="none">
                 <LinearLayout
@@ -47,5 +52,6 @@
                             android:textColor="@color/black"/>
                 </LinearLayout>
         </ScrollView>
+
 </LinearLayout>
 
