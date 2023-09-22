@@ -80,6 +80,176 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/russiantarget"
+                    android:scaleType="fitXY"
+
+                    android:clickable="true"
+                    android:focusable="true"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="How Russia deliberately targeted Kherson’s hospitals"
+                    android:textSize="20dp"
+                    android:layout_gravity="top|left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:clickable="true"
+                    android:focusable="true"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/music"
+                    android:scaleType="fitXY"
+
+                    android:clickable="true"
+                    android:focusable="true"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="The love for music is still there’: saving the sounds of Afghanistan one cassette at a time"
+                    android:textSize="20dp"
+                    android:layout_gravity="top|left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:clickable="true"
+                    android:focusable="true"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/sport"
+                    android:scaleType="fitXY"
+
+                    android:clickable="true"
+                    android:focusable="true"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Marcus Smith set to start at full-back for England as Owen Farrell returns"
+                    android:textSize="20dp"
+                    android:layout_gravity="top|left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:clickable="true"
+                    android:focusable="true"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/bobrosspaint"
+                    android:scaleType="fitXY"
+
+                    android:clickable="true"
+                    android:focusable="true"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Bob Ross’s first TV painting goes on sale for nearly $10m"
+                    android:textSize="20dp"
+                    android:layout_gravity="top|left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:clickable="true"
+                    android:focusable="true"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/seducation"
+                    android:scaleType="fitXY"
+
+                    android:clickable="true"
+                    android:focusable="true"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Sex Education final season review – one long list of frustrations"
+                    android:textSize="20dp"
+                    android:layout_gravity="top|left"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:clickable="true"
+                    android:focusable="true"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray"/>
         </LinearLayout>
 </ScrollView>
 
